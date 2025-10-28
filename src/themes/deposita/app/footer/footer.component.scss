@@ -1,0 +1,63 @@
+.custom-footer {
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  .footer-social {
+    background: #0F49BD;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    img {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .footer-main {
+    background: #fff;
+    padding: 24px;
+    color: #333;
+
+    .footer-links {
+      margin-bottom: 16px;
+
+      a {
+        margin: 0 12px;
+        color: #28408b;
+        text-decoration: none;
+        font-weight: 500;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .logos {
+      margin: 16px 0;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .institution {
+      font-size: 14px;
+      color: #666;
+      line-height: 1.6;
+      margin-top: 12px;
+    }
+  }
+
+
+
+
+  @media (max-width: 768px) {
+    .logos {
+      max-width: 250px;
+    }
+    .institution {
+      font-size: 12px;
+    }
+  }
+}

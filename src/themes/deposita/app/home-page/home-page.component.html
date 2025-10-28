@@ -1,0 +1,64 @@
+<ds-home-coar></ds-home-coar>
+<ds-home-news></ds-home-news>
+@if (showDiscoverFilters) {
+<ds-configuration-search-page
+  [sideBarWidth]="3"
+  [showViewModes]="false"
+  [searchEnabled]="false"
+  [inPlaceSearch]="false"
+  [showScopeSelector]="false"
+>
+  <ng-container searchContentTop *ngTemplateOutlet="homeContent"></ng-container>
+</ds-configuration-search-page>
+} @if (!showDiscoverFilters) {
+<div class="container">
+  <ng-container *ngTemplateOutlet="homeContent"></ng-container>
+</div>
+}
+<ds-suggestions-popup></ds-suggestions-popup>
+
+<ng-template #homeContent>
+<div class="highlight-container w-100 py-5 px-3 mb-20 d-flex justify-content-center">
+  <div class="highlight-card p-4" *ngIf="randomItem1">
+    <small class="text-muted d-block mb-1">Destaque randômico</small>
+
+    <h5 class="highlight-title mb-2">
+      <a
+        [routerLink]="['/items', randomItem1.id]"
+        class="text-decoration-none text-primary"
+        target="_blank"
+      >
+        {{ randomItem1.metadata['dc.title']?.[0]?.value || 'Sem título' }}
+      </a>
+    </h5>
+
+    <p class="highlight-text mb-0">
+      {{ getResumo(randomItem1, 250) }}
+    </p>
+  </div>
+</div>
+
+
+  <div *ngIf="types.length > 0" class="doc-types-container">
+    <div class="doc-types-grid">
+      <div
+        *ngFor="let type of types"
+        (click)="onClickDcType(type.name)"
+        class="doc-card"
+      >
+        <div class="icon">
+          <img [src]="getIcon(type.name)" alt="ícone" />
+        </div>
+        <div class="text">
+          <p class="randomic type-name">{{ type.name }}</p>
+          <p class="count">{{ type.count }} publicações</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- <ds-top-level-community-list></ds-top-level-community-list> -->
+  @if (recentSubmissionspageSize>0) {
+  <ds-recent-item-list></ds-recent-item-list>
+  }
+</ng-template>

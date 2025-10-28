@@ -32,14 +32,14 @@ $enable-shadows: true !default;
 /*** SEMANTIC COLOR SCHEME ***/
 
 // Override semantic colors
-$primary:   #2b4e72 !default;               // Blue gray
+$primary:   #0F49BD !default;               // Blue gray
 $secondary: #495057 !default;               // As Bootstrap $gray-700
 $success:   #94ba65 !default;               // Lime
-$info:      #006666 !default;               // Blue green
+$info:      #0F49BD !default;               // Blue green
 $warning:   #ec9433 !default;               // Orange
 $danger:    #cf4444 !default;               // Red
 $light:     #f8f9fa !default;               // As Bootstrap $gray-100
-$dark:      darken(#2b4e72, 17%) !default;  // Blue gray (darker)
+$dark:      darken(#0F49BD, 17%) !default;  // Blue gray (darker)
 
 // Add new semantic colors here (you don't need to add existing semantic colors)
 $global-custom-semantic-colors: (

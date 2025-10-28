@@ -1,0 +1,69 @@
+:host {
+  display: block;
+}
+
+.display-3 {
+  word-break: break-word;
+}
+
+a {
+  color: var(--ds-home-news-link-color);
+}
+a:hover {
+  color: var(--ds-home-news-link-hover-color);
+}
+
+/* Container da imagem */
+.bg-hero {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
+}
+
+.bg-hero img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ===== Estilo base do search form ===== */
+.container.position-relative ds-search-form {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 23rem;       /* distância fixa do fundo da imagem */
+  width: 1170px;
+  height: 72px;
+  border-radius: 8px;
+  padding: 16px;
+  gap: 16px;
+  opacity: 1;
+}
+
+
+
+/* Desktop grande (>= 1200px) */
+@media (min-width: 1200px) {
+  .container.position-relative ds-search-form {
+    width: 1170px;
+    height: 72px;
+  }
+}
+
+/* Tablet (>= 768px e < 1200px) */
+@media (min-width: 768px) and (max-width: 1199px) {
+  .container.position-relative ds-search-form {
+    width: 90%;
+    height: 64px;
+    bottom: 18rem; /* sobe um pouco menos em telas médias */
+  }
+}
+
+/* Mobile (< 768px) */
+@media (max-width: 767px) {
+  .container.position-relative ds-search-form {
+    width: 95%;
+    height: auto;
+    bottom: -3rem;
+    padding: 12px;
+  }
+}
