@@ -30,15 +30,14 @@
     <div class="dropdown-menu"
          [ngClass]="{'show': isDropdownDepositaOpen}"
          aria-labelledby="o-deposita-dropdown">
-      <a class="ds-menu-item dropdown-item" href="/itens">Itens</a>
-      <a class="ds-menu-item dropdown-item" href="/apresentacao">Apresentação</a>
-      <a class="ds-menu-item dropdown-item" href="/politica">Política do Repositório</a>
-      <a class="ds-menu-item dropdown-item" href="/manual">Manual de Depósito</a>
+     <a class="ds-menu-item dropdown-item" href="/info/presentation">{{'navbar.presentation' | translate}}</a>
+    <a class="ds-menu-item dropdown-item" href="/info/repositorypolicy">{{'navbar.repositorypolicy' | translate}}</a>
+    <a class="ds-menu-item dropdown-item" href="assets/docs/Deposita_Manual_de_depósito_de_obras_v2.pdf" target="_blank" rel="noopener">{{'navbar.depositmanual' | translate}}</a>
     </div>
   </div>
 
   <!-- Link simples "Contatos" -->
-  <a class="ds-menu-item nav-link" href="/contatos" role="menuitem">
+  <a class="ds-menu-item nav-link" href="/info/contacts" role="menuitem">
     Contatos
   </a>
 
