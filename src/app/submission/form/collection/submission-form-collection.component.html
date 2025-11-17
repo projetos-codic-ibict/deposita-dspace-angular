@@ -26,7 +26,7 @@
           <span><i class='fas fa-circle-notch fa-spin'></i></span>
         }
         @if ((processingChange$ | async) !== true) {
-          <span>{{ selectedCollectionName$ | async }}</span>
+          <span>{{ selectedCollectionName$ | async  | translate }}</span>
         }
       </button>
       <div ngbDropdownMenu

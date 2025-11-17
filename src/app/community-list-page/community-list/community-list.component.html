@@ -52,7 +52,7 @@
       }
       <div class="d-flex flex-row">
         <span class="d-flex align-middle my-auto">
-          <a [routerLink]="node.route" class="lead" role="link" tabindex="0">{{ dsoNameService.getName(node.payload) }}</a>
+          <a [routerLink]="node.route" class="lead" role="link" tabindex="0">{{ dsoNameService.getName(node.payload) | translate }}</a>
           <span class="pe-2">&nbsp;</span>
           @if (node.payload.archivedItemsCount >= 0) {
             <span class="badge rounded-pill bg-secondary align-top archived-items-lead my-auto ps-2 pe-2">{{node.payload.archivedItemsCount}}</span>
