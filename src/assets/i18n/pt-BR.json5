@@ -6789,10 +6789,10 @@
   "repository.image.logo": "Logo do Repositório",
 
   // "repository.title": "DSpace Repository",
-  "repository.title": "Repositório DSpace",
+  "repository.title": "Deposita",
 
   // "repository.title.prefix": "DSpace Repository :: ",
-  "repository.title.prefix": "Repositório DSpace :: ",
+  "repository.title.prefix": "Deposita :: ",
 
   // "resource-policies.add.button": "Add",
   "resource-policies.add.button": "Adicionar",
@@ -11463,5 +11463,23 @@
   "masterThesis": "Dissertação",
 
   "bachelorThesis": "Trabalho de conclusão de curso",
+
+  "browse.comcol.by.language" : "Por Idioma",
+  "browse.comcol.by.knowledgearea" : "Por Área de conhecimento",
+  "browse.comcol.by.keyword" : "Por Palavra-chave",
+  "browse.comcol.by.institution" : "Por Instituição",
+
+  "menu.section.browse_global_by_language" : "Por Idioma",
+  "menu.section.browse_global_by_knowledgearea" : "Por Área de conhecimento",
+  "menu.section.browse_global_by_keyword" : "Por Palavra-chave",
+  "menu.section.browse_global_by_institution" : "Por Instituição",
+  
+  "search.filters.filter.cnpq.head" : "Área de conhecimento",
+  "search.filters.filter.cnpq.label" : "Procurar por Área de conhecimento",
+  "search.filters.filter.cnpq.placeholder" : "Área de conhecimento",
+
+  "search.filters.filter.name.head" : "Instituição",
+  "search.filters.filter.name.label" : "Procurar por Instituição",
+  "search.filters.filter.name.placeholder" : "Instituição",
 
 }
