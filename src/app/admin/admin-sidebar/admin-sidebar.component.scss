@@ -116,11 +116,11 @@
       }
 
       a {
-        color: var(--ds-admin-sidebar-link-color);
+        color: white;
         text-decoration: none;
 
         &:hover, &:focus {
-          color: var(--ds-admin-sidebar-link-hover-color);
+          color: #e6e6e6;
         }
       }
     }
@@ -144,3 +144,7 @@
     --ds-dark-scrollbar-width: 20px;
   }
 }
+
+.fas{
+                color: white;
+            }

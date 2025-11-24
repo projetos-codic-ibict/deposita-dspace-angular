@@ -5519,7 +5519,7 @@
   "metadata-export-search.submit.error": "Falha ao iniciar a exportação",
 
   // "mydspace.breadcrumbs": "MyDSpace",
-  "mydspace.breadcrumbs": "MeuDSpace",
+  "mydspace.breadcrumbs": "Meu Deposita",
 
   // "mydspace.description": "",
   "mydspace.description": "",
@@ -6283,15 +6283,15 @@
 
   // "profile.card.accessibility.content": "Accessibility settings can be configured on the accessibility settings page.",
   // TODO New key - Add a translation
-  "profile.card.accessibility.content": "Accessibility settings can be configured on the accessibility settings page.",
+  "profile.card.accessibility.content": "As configurações de acessibilidade podem ser configuradas na página de configurações de acessibilidade.",
 
   // "profile.card.accessibility.header": "Accessibility",
   // TODO New key - Add a translation
-  "profile.card.accessibility.header": "Accessibility",
+  "profile.card.accessibility.header": "Acessibilidade",
 
   // "profile.card.accessibility.link": "Go to Accessibility Settings Page",
   // TODO New key - Add a translation
-  "profile.card.accessibility.link": "Go to Accessibility Settings Page",
+  "profile.card.accessibility.link": "Acesse a página de Configurações de Acessibilidade.",
 
   // "profile.card.identify": "Identify",
   "profile.card.identify": "Identificação",
@@ -7467,7 +7467,7 @@
   "search.form.search_dspace": "Todo o repositório",
 
   // "search.form.scope.all": "All of DSpace",
-  "search.form.scope.all": "Todo o DSpace",
+  "search.form.scope.all": "Todo o Deposita",
 
   // "search.results.head": "Search Results",
   "search.results.head": "Resultados de Busca",
@@ -11482,4 +11482,8 @@
   "search.filters.filter.name.label" : "Procurar por Instituição",
   "search.filters.filter.name.placeholder" : "Instituição",
 
+
+  "info.presentation.title" : "Apresentação",
+  "info.repositorypolicy.title" : "Política do repositório",
+  "info.contacts.title" : "Contato",
 }
