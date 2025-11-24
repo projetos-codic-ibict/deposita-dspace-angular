@@ -11143,7 +11143,13 @@
 
   "item.preview.organization.address.addressLocality": "Cidade",
 
-  "item.preview.organization.alternateName": "Nome alternativo",
+  "item.cite.open-modal": "Citar",
+  "item.cite.modal.title": "Citar",
+  "item.cite.modal.choose-style": "Escolha o estilo de citação",
+  "item.cite.modal.copy": "Copiar",
+  "item.cite.modal.copied": "Copiado!",
+  "item.cite.modal.error": "Não foi possível gerar a citação",
+
 
 
 //tela de contatos
