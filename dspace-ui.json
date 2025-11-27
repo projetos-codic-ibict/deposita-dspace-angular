@@ -1,0 +1,18 @@
+{
+    "apps": [
+        {
+           "name": "dspace-ui",
+           "cwd": "/home/jesielsilva/dspace9/deposita-dspace-angular",
+           "script": "dist/server/main.js",
+           "env": {
+              "NODE_ENV": "production"
+           }
+        }
+    ]
+}
+
+
+
+
+
+
