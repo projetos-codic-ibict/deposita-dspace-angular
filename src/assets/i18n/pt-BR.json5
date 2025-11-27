@@ -10880,15 +10880,15 @@
 
   // "form.date-picker.placeholder.year": "Year",
   // TODO New key - Add a translation
-  "form.date-picker.placeholder.year": "Year",
+  "form.date-picker.placeholder.year": "Ano",
 
   // "form.date-picker.placeholder.month": "Month",
   // TODO New key - Add a translation
-  "form.date-picker.placeholder.month": "Month",
+  "form.date-picker.placeholder.month": "Mês",
 
   // "form.date-picker.placeholder.day": "Day",
   // TODO New key - Add a translation
-  "form.date-picker.placeholder.day": "Day",
+  "form.date-picker.placeholder.day": "Dia",
 
   // "item.page.cc.license.title": "Creative Commons license",
   "item.page.cc.license.title": "Licença Creative Commons",
@@ -11377,6 +11377,9 @@
   "submission.sections.submit.progressbar.describe.conferenceObject2": "Dados do artigo de evento",
 
   "submission.sections.submit.progressbar.describe.conferenceObject3": "Dados da agência de fomento",
+  
+  "submission.sections.submit.progressbar.describe.dark-identifier": "Identificador dARK",
+
 
 //contrato final
  "enduser.lastmodify": "Última atualização em 25 de abril de 2025",
@@ -11492,4 +11495,7 @@
   "info.presentation.title" : "Apresentação",
   "info.repositorypolicy.title" : "Política do repositório",
   "info.contacts.title" : "Contato",
+
+  "atention.form" : "Atenção: os campos com asterisco (*) são de preenchimento obrigatório.",
+
 }
