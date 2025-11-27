@@ -2,7 +2,7 @@
   <div class="collections">
     @for (collection of (this.collections$ | async); track collection; let last = $last) {
       <a [routerLink]="['/collections', collection.id]" role="button" tabindex="0">
-        <span>{{ dsoNameService.getName(collection) }}</span>@if (!last) {
+        <span>{{ dsoNameService.getName(collection) | translate }}</span>@if (!last) {
         <span [innerHTML]="separator"></span>
       }
     </a>
