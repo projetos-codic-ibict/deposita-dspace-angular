@@ -71,24 +71,38 @@ export class TypeBadgeComponent {
   }
 
 
-  get typeStyle(): any {
-    const normalizedType = this.normalize(this._typeMessage || '');
+ get typeStyle(): any {
+  const raw = this.normalize(this._typeMessage || '');
 
-    const typeColors: Record<string, { background: string; color: string }> = {
-      artigo: { background: '#007bff', color: '#fff' },
-      'artigo de evento': { background: '#0056b3', color: '#fff' },
-      'capitulo de livro': { background: '#218838', color: '#fff' },
-      dissertacao: { background: '#6f42c1', color: '#fff' },
-      livro: { background: '#28a745', color: '#fff' },
-      tese: { background: '#e83e8c', color: '#fff' },
-      'trabalho de conclusao de curso': {
-        background: '#fd7e14',
-        color: '#fff',
-      },
-    };
 
-    return (
-      typeColors[normalizedType] || { background: '#343a40', color: '#fff' }
-    );
-  }
+  const alias =
+    raw === 'artigo' || raw === 'article'
+      ? 'artigo'
+      : raw === 'artigo de evento' || raw === 'conferenceobject'
+      ? 'artigo de evento'
+      : raw === 'capitulo de livro' || raw === 'bookpart'
+      ? 'capitulo de livro'
+      : raw === 'dissertacao' || raw === 'masterthesis'
+      ? 'dissertacao'
+      : raw === 'livro' || raw === 'book'
+      ? 'livro'
+      : raw === 'tese' || raw === 'doctoralthesis'
+      ? 'tese'
+      : raw === 'trabalho de conclusao de curso' || raw === 'bachelorthesis'
+      ? 'trabalho de conclusao de curso'
+      : 'fallback';
+
+  const typeColors: Record<string, { background: string; color: string }> = {
+    artigo: { background: '#007bff', color: '#fff' },
+    'artigo de evento': { background: '#0056b3', color: '#fff' },
+    'capitulo de livro': { background: '#218838', color: '#fff' },
+    dissertacao: { background: '#6f42c1', color: '#fff' },
+    livro: { background: '#28a745', color: '#fff' },
+    tese: { background: '#e83e8c', color: '#fff' },
+    'trabalho de conclusao de curso': { background: '#fd7e14', color: '#fff' },
+    fallback: { background: '#343a40', color: '#fff' },
+  };
+
+  return typeColors[alias];
+}
 }
