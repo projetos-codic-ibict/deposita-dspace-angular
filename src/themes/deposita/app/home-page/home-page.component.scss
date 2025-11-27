@@ -85,9 +85,26 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
+.full-click {
+  position: absolute;
+  inset: 0; /* ocupa 100% do card */
+  z-index: 5;
+  text-decoration: none;
+  color: inherit;
+}
+
 .highlight-title {
   font-weight: 600;
   font-size: 1.25rem; /* tamanho parecido com a imagem */
+  color: #0f49bc;
+}
+
+.highlight-card:hover * {
+  text-decoration: underline;
+}
+
+.highlight-card:hover .text-muted {
+  text-decoration: underline;
 }
 
 .highlight-text {

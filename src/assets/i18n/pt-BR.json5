@@ -4341,7 +4341,7 @@
   "item.page.journal-title": "Título da Revista",
 
   // "item.page.publisher": "Publisher",
-  "item.page.publisher": "Editor",
+  "item.page.publisher": "Instituição",
 
   // "item.page.titleprefix": "Item: ",
   "item.page.titleprefix": "Item: ",
@@ -4644,7 +4644,7 @@
   "item.preview.dc.identifier.doi": "DOI",
 
   // "item.preview.dc.publisher": "Publisher:",
-  "item.preview.dc.publisher": "Editora:",
+  "item.preview.dc.publisher": "Instituição:",
 
   // "item.preview.person.familyName": "Surname:",
   "item.preview.person.familyName": "Sobrenome:",
@@ -5305,7 +5305,7 @@
   "menu.section.browse_community_by_title": "Por Título",
 
   // "menu.section.browse_global": "All of DSpace",
-  "menu.section.browse_global": "Tudo no DSpace",
+  "menu.section.browse_global": "Navegar",
 
   // "menu.section.browse_global_by_author": "By Author",
   "menu.section.browse_global_by_author": "Por Autor",

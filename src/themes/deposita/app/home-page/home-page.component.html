@@ -19,24 +19,27 @@
 
 <ng-template #homeContent>
 <div class="highlight-container w-100 py-5 px-3 mb-20 d-flex justify-content-center">
-  <div class="highlight-card p-4" *ngIf="randomItem1">
+  <div class="highlight-card p-4 position-relative" *ngIf="randomItem1">
+
+    <!-- LINK INVISÍVEL QUE COBRE TODO O CARD -->
+    <a
+      class="full-click"
+      [routerLink]="['/items', randomItem1.id]"
+    ></a>
+
     <small class="text-muted d-block mb-1">Destaque randômico</small>
 
     <h5 class="highlight-title mb-2">
-      <a
-        [routerLink]="['/items', randomItem1.id]"
-        class="text-decoration-none text-primary"
-        target="_blank"
-      >
-        {{ randomItem1.metadata['dc.title']?.[0]?.value || 'Sem título' }}
-      </a>
+      {{ randomItem1.metadata['dc.title']?.[0]?.value || 'Sem título' }}
     </h5>
 
     <p class="highlight-text mb-0">
       {{ getResumo(randomItem1, 250) }}
     </p>
+
   </div>
 </div>
+
 
 
   <div *ngIf="types.length > 0" class="doc-types-container">
