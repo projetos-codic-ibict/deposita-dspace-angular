@@ -5600,7 +5600,7 @@
   "mydspace.results.no-uri": "Sem URI",
 
   // "mydspace.search-form.placeholder": "Search in MyDSpace...",
-  "mydspace.search-form.placeholder": "Procurar no MeuDSpace...",
+  "mydspace.search-form.placeholder": "Procurar no Deposita...",
 
   // "mydspace.show.workflow": "Workflow tasks",
   "mydspace.show.workflow": "Tarefas de fluxo de trabalho",
@@ -5686,7 +5686,7 @@
   "nav.main.description": "Barra de navegação principal",
 
   // "nav.mydspace": "MyDSpace",
-  "nav.mydspace": "MeuDSpace",
+  "nav.mydspace": "Meu Deposita",
 
   // "nav.profile": "Profile",
   "nav.profile": "Perfil",
@@ -7721,7 +7721,7 @@
   "submission.import-external.page.hint": "Insira uma consulta acima para encontrar itens da web para importar para o DSpace.",
 
   // "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
-  "submission.import-external.back-to-my-dspace": "Voltar para o MeuDSpace",
+  "submission.import-external.back-to-my-dspace": "Voltar para o Meu Deposita",
 
   // "submission.import-external.search.placeholder": "Search the external source",
   "submission.import-external.search.placeholder": "Procurar de uma fonte externa",

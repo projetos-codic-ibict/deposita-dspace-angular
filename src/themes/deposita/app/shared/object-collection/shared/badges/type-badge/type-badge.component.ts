@@ -10,9 +10,7 @@ import { getResourceTypeValueFor } from '../../../../../../../../app/core/cache/
 
 @Component({
   selector: 'ds-themed-type-badge',
-  // styleUrls: ['./type-badge.component.scss'],
   templateUrl: './type-badge.component.html',
-  // templateUrl: '../../../../../../../../app/shared/object-collection/shared/badges/type-badge/type-badge.component.html',
   standalone: true,
   imports: [TranslateModule, CommonModule],
 })
@@ -20,12 +18,10 @@ export class TypeBadgeComponent {
   private _object: DSpaceObject;
   private _typeMessage: string;
 
-  /**
-   * The component used to retrieve the type from
-   */
   @Input() set object(object: DSpaceObject) {
     this._object = object;
 
+  
     const renderTypes = this._object.getRenderTypes();
     if (!isEmpty(renderTypes.length)) {
       const renderType = renderTypes[0];
@@ -63,22 +59,36 @@ export class TypeBadgeComponent {
   get typeMessage(): string {
     return this._typeMessage;
   }
+
+
+  private normalize(value: string): string {
+    return value
+      ?.toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') 
+      .replace(/\s+/g, ' ')
+      .trim();
+  }
+
+
   get typeStyle(): any {
-    const type = (this._typeMessage || '').toLowerCase();
+    const normalizedType = this.normalize(this._typeMessage || '');
+
     const typeColors: Record<string, { background: string; color: string }> = {
-      
       artigo: { background: '#007bff', color: '#fff' },
       'artigo de evento': { background: '#0056b3', color: '#fff' },
-      'capítulo de livro': { background: '#218838', color: '#fff' },
-      dissertação: { background: '#6f42c1', color: '#fff' },
+      'capitulo de livro': { background: '#218838', color: '#fff' },
+      dissertacao: { background: '#6f42c1', color: '#fff' },
       livro: { background: '#28a745', color: '#fff' },
       tese: { background: '#e83e8c', color: '#fff' },
-      'trabalho de conclusão de curso': {
+      'trabalho de conclusao de curso': {
         background: '#fd7e14',
         color: '#fff',
       },
     };
 
-    return typeColors[type] || { background: '#343a40', color: '#fff' }; // fallback caso nao tenha o dc.type
+    return (
+      typeColors[normalizedType] || { background: '#343a40', color: '#fff' }
+    );
   }
 }
