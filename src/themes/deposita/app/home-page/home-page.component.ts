@@ -58,7 +58,7 @@ export class HomePageComponent implements OnInit {
 
   types: { name: string; count: number }[] = [];
   iconesMap: Record<string, string> = {
-    Artigo: 'assets/deposita/images/bookmark.svg',
+    'Artigo de revista': 'assets/deposita/images/bookmark.svg',
     'Artigo de evento': 'assets/deposita/images/edit.svg',
     'Capítulo de livro': 'assets/deposita/images/li_file.svg',
     Dissertação: 'assets/deposita/images/quote.svg',
@@ -144,10 +144,10 @@ copyItemLink(itemId: string): void {
             return;
           }
 
-          // Embaralha os itens
+
           const shuffled = items.sort(() => 0.5 - Math.random());
 
-          // Pega os dois primeiros diferentes
+
           this.randomItem1 = shuffled[0];
           this.randomItem2 = shuffled[1];
 
@@ -162,7 +162,7 @@ copyItemLink(itemId: string): void {
       });
   }
 
-  /** Recupera resumo em pt ou en */
+
   getResumo(item: any, limit = 300): string {
     const resumo =
       item.metadata['dc.description.resumo']?.[0]?.value ||
@@ -176,9 +176,8 @@ copyItemLink(itemId: string): void {
    *  ================================ */
   private async carregarTiposDocumentos(): Promise<void> {
     try {
-      // Defina os tipos que você quer exibir
       const tiposItens = [
-        'Artigo',
+        'Artigo de revista',
         'Artigo de evento',
         'Capítulo de livro',
         'Dissertação',
@@ -187,7 +186,7 @@ copyItemLink(itemId: string): void {
         'Trabalho de conclusão de curso',
       ];
 
-      // Dispara todas as requisições em paralelo
+
       const promises = tiposItens.map((tipo) =>
         fetch(
           `${environment.rest.baseUrl}/api/discover/facets/has_content_in_original_bundle?query=dc.type:${encodeURIComponent(tipo)}`
@@ -196,7 +195,7 @@ copyItemLink(itemId: string): void {
 
       const results = await Promise.all(promises);
 
-      // Monta o objeto de quantidades
+      
       const quantidades: Record<string, number> = {};
       results.forEach((result, index) => {
         const nomeTipo = tiposItens[index];
@@ -204,13 +203,13 @@ copyItemLink(itemId: string): void {
         quantidades[nomeTipo] = count;
       });
 
-      // Atualiza this.types no formato usado no template
+      
       this.types = Object.keys(quantidades).map((key) => ({
         name: key,
         count: quantidades[key],
       }));
 
-      // Opcional: ordenar por nome
+      
       this.types.sort((a, b) => a.name.localeCompare(b.name));
 
       this.cdr.detectChanges();
@@ -225,7 +224,7 @@ copyItemLink(itemId: string): void {
       .filter((obj: any) => obj.type === 'item');
   }
 
-  /** Limita o resumo em X caracteres */
+
   limitarAbstract(text: string, limit = 150): string {
     if (!text) return '';
     return text.length > limit ? text.substring(0, limit) + '...' : text;
