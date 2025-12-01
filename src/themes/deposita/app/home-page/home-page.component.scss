@@ -3,14 +3,18 @@
   padding: 1rem;
   max-width: 1000px;
   position: relative;
-  top: -18rem; /* sobe o container 2rem */
+  top: -18rem; 
 }
 
 .doc-types-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  justify-items: center; /* centraliza os cards horizontalmente */
+  justify-items: center;
+}
+
+.doc-types-grid > .doc-card:last-child{
+  grid-column: 2;
 }
 
 .doc-card {

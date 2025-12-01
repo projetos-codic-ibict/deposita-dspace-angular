@@ -37,7 +37,7 @@
                       @for (mdEntry of (metadata$ | async) | keyvalue; track mdEntry) {
                         @for (mdValue of mdEntry.value; track mdValue) {
                           <tr>
-                            <td>{{mdEntry.key}}</td>
+                            <td>{{ ('metadataKeys.' + mdEntry.key) | translate }}</td>
                             <td>{{mdValue.value}}</td>
                             <td>{{mdValue.language}}</td>
                           </tr>
