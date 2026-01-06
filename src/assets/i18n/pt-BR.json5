@@ -1584,6 +1584,14 @@
   // "browse.metadata.author.breadcrumbs": "Browse by Author",
   "browse.metadata.author.breadcrumbs": "Pesquisar por Autor",
 
+  "browse.metadata.language.breadcrumbs": "Pesquisar por Idioma",
+
+  "browse.metadata.keyword.breadcrumbs": "Pesquisar por Palavra-chave",
+
+  "browse.metadata.knowledgearea.breadcrumbs": "Pesquisar por Área de conhecimento",
+
+  "browse.metadata.institution.breadcrumbs": "Pesquisar por Instituição",
+
   // "browse.metadata.dateissued.breadcrumbs": "Browse by Date",
   "browse.metadata.dateissued.breadcrumbs": "Pesquisar por Data",
 
