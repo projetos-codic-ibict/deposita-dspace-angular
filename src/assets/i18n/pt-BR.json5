@@ -11155,6 +11155,7 @@
   "item.cite.modal.title": "Citar",
   "item.cite.modal.choose-style": "Escolha o estilo de citação",
   "item.cite.modal.copy": "Copiar",
+  "item.cite.modal.close": "Fechar",
   "item.cite.modal.copied": "Copiado!",
   "item.cite.modal.error": "Não foi possível gerar a citação",
 
@@ -11588,9 +11589,14 @@
     "dc.identifier.urlevent" : "Página do evento",
     "dc.publisher.event" : "Título do evento",
     "dc.title.book": "Título do livro",
-
-
-
-
   },
+  "modern-language-association": "MLA",
+
+  "apa": "APA",
+
+  "vancouver": "Vancouver",
+
+  "bibtex": "BibTeX",
+
+  "instituto-brasileiro-de-informacao-em-ciencia-e-tecnologia-abnt": "ABNT",
 }
