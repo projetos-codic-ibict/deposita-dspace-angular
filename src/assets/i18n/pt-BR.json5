@@ -1131,6 +1131,156 @@
   // "admin.reports.commons.filters.permission.has_restricted_metadata.tooltip": "Item has metadata that is not accessible to Anonymous user",
   "admin.reports.commons.filters.permission.has_restricted_metadata.tooltip": "O item possui metadados que não estão acessíveis ao usuário anônimo",
 
+  // "admin.reports.users-activities.title": "Users Activity Report",
+  "admin.reports.users-activities.title": "Relatório de Atividades de Usuários",
+
+  // "admin.reports.users-activities.breadcrumbs": "Users Activity Report",
+  "admin.reports.users-activities.breadcrumbs": "Relatório de Atividades de Usuários",
+
+  // "admin.reports.users-activities.description": "View detailed statistics about users' activity across submissions and reviews",
+  "admin.reports.users-activities.description": "Ver estatísticas detalhadas sobre a atividade dos usuários em envios e revisões",
+
+  // "admin.reports.users-activities.summary": "Summary",
+  "admin.reports.users-activities.summary": "Resumo",
+
+  // "admin.reports.users-activities.user-stats": "Users Statistics",
+  "admin.reports.users-activities.user-stats": "Estatísticas de Usuários",
+
+  // "admin.reports.users-activities.actions": "All Actions",
+  "admin.reports.users-activities.actions": "Todas as Ações",
+
+  // "admin.reports.users-activities.total-users": "Total Users",
+  "admin.reports.users-activities.total-users": "Total de Usuários",
+
+  // "admin.reports.users-activities.total-submissions": "Total Submissions",
+  "admin.reports.users-activities.total-submissions": "Total de Envios",
+
+  // "admin.reports.users-activities.total-reviews": "Total Reviews",
+  "admin.reports.users-activities.total-reviews": "Total de Revisões",
+
+  // "admin.reports.users-activities.total-approvals": "Total Approvals",
+  "admin.reports.users-activities.total-approvals": "Total de Aprovações",
+
+  // "admin.reports.users-activities.total-rejections": "Total Rejections",
+  "admin.reports.users-activities.total-rejections": "Total de Rejeições",
+
+  // "admin.reports.users-activities.total-withdrawals": "Total Withdrawals",
+  "admin.reports.users-activities.total-withdrawals": "Total de Retiradas",
+
+  // "admin.reports.users-activities.report-summary": "Report Summary",
+  "admin.reports.users-activities.report-summary": "Resumo do Relatório",
+
+  // "admin.reports.users-activities.user-statistics": "Users Statistics",
+  "admin.reports.users-activities.user-statistics": "Estatísticas de Usuários",
+
+  // "admin.reports.users-activities.user-statistics": "Users indicators",
+  "admin.reports.users-activities.users-indicators": "Indicadores de Usuários",
+
+  // "admin.reports.users-activities.all-actions": "All Actions",
+  "admin.reports.users-activities.all-actions": "Todas as Ações",
+
+  // "admin.reports.users-activities.download-CSV": "Download CSV",
+  "admin.reports.users-activities.download-CSV": "Baixar CSV",
+
+  // "admin.reports.users-activities.name": "Name",
+  "admin.reports.users-activities.name": "Nome",
+
+  // "admin.reports.users-activities.email": "Email",
+  "admin.reports.users-activities.email": "Email",
+
+  // "admin.reports.users-activities.submissions": "Submissions",
+  "admin.reports.users-activities.submissions": "Envios",
+
+  // "admin.reports.users-activities.reviews": "Reviews",
+  "admin.reports.users-activities.reviews": "Revisões",
+
+  // "admin.reports.users-activities.approvals": "Approvals",
+  "admin.reports.users-activities.approvals": "Aprovações",
+
+  // "admin.reports.users-activities.rejections": "Rejections",
+  "admin.reports.users-activities.rejections": "Rejeições",
+
+  // "admin.reports.users-activities.withdrawals": "Withdrawals",
+  "admin.reports.users-activities.withdrawals": "Retiradas",
+
+  // "admin.reports.users-activities.searchByEmailOrName": "Search by email or name...",
+  "admin.reports.users-activities.searchByEmailOrName": "Pesquisar por email ou nome...",
+
+  // "admin.reports.users-activities.action": "Action",
+  "admin.reports.users-activities.action": "Ação",
+
+  // "admin.reports.users-activities.user": "User",
+  "admin.reports.users-activities.user": "Usuário",
+
+  // "admin.reports.users-activities.date": "Date",
+  "admin.reports.users-activities.date": "Data",
+
+  // "admin.reports.users-activities.details": "Details",
+  "admin.reports.users-activities.details": "Detalhes",
+
+  // "admin.reports.users-activities.submitted": "Submitted",
+  "admin.reports.users-activities.submitted": "Enviado",
+
+  // "admin.reports.users-activities.reviewed": "Reviewed",
+  "admin.reports.users-activities.reviewed": "Revisado",
+
+  // "admin.reports.users-activities.approved": "Approved",
+  "admin.reports.users-activities.approved": "Aprovado",
+
+  // "admin.reports.users-activities.rejected": "Rejected",
+  "admin.reports.users-activities.rejected": "Rejeitado",
+
+  // "admin.reports.users-activities.withdrawn": "Withdrawn",
+  "admin.reports.users-activities.withdrawn": "Retirado",
+
+  // "admin.reports.users-activities.no-results": "No results found",
+  "admin.reports.users-activities.no-results": "Nenhum resultado encontrado",
+
+  // "admin.reports.users-activities.activity-trends": "Activity Trends by Month",
+  "admin.reports.users-activities.activity-trends": "Tendências de Atividade por Mês",
+
+  // "admin.reports.users-activities.start-date": "Start Date (YYYY-MM)",
+  "admin.reports.users-activities.start-date": "Data de Início (YYYY-MM)",
+
+  // "admin.reports.users-activities.end-date": "End Date (YYYY-MM)",
+  "admin.reports.users-activities.end-date": "Data de Fim (YYYY-MM)",
+
+  // "admin.reports.users-activities.reset-filter": "Reset Filter",
+  "admin.reports.users-activities.reset-filter": "Redefinir Filtro",
+
+  // "admin.reports.users-activities.monthly": "Monthly",
+  "admin.reports.users-activities.monthly": "Mensal",
+
+  // "admin.reports.users-activities.yearly": "Yearly",
+  "admin.reports.users-activities.yearly": "Anual",
+  "admin.reports.users-activities.year": "Ano",
+  "admin.reports.users-activities.count": "Quantidade",
+  "admin.reports.users-activities.month": "Mês",
+
+  // "admin.reports.users-activities.top-10-submissions": "Top 10 Users by Submissions",
+  "admin.reports.users-activities.top-10-submissions": "Top 10 usuários por submissões",
+
+  // "admin.reports.users-activities.top-10-reviews": "Top 10 Users by Reviews",
+  "admin.reports.users-activities.top-10-reviews": "Top 10 usuários por revisões",
+
+  // "admin.reports.users-activities.top-10-approvals": "Top 10 Users by Approvals",
+  "admin.reports.users-activities.top-10-approvals": "Top 10 usuários por aprovações",
+
+  // "admin.reports.users-activities.top-10-rejections": "Top 10 Users by Rejections",
+  "admin.reports.users-activities.top-10-rejections": "Top 10 usuários por rejeições",
+
+  // "admin.reports.users-activities.top-10-withdrawals": "Top 10 Users by Withdrawals",
+  "admin.reports.users-activities.top-10-withdrawals": "Top 10 usuários por retiradas",
+
+  // "admin.reports.users-activities.download-csv": "Download CSV",
+  "admin.reports.users-activities.download-csv": "Baixar CSV",
+
+  // "admin.reports.users-activities.search-by-email-or-name": "Search by email or name...",
+  "admin.reports.users-activities.search-by-email-or-name": "Pesquisar por email ou nome...",
+
+  // "admin.reports.users-activities.no-trend-data": "No trend data available for selected period",
+  "admin.reports.users-activities.no-trend-data": "Nenhum dado de tendência disponível para o período selecionado",
+
   // "admin.search.breadcrumbs": "Administrative Search",
   "admin.search.breadcrumbs": "Pesquisa Administrativa",
 
@@ -2734,7 +2884,7 @@
   "dso-selector.set-scope.community.head": "Selecione um escopo de pesquisa",
 
   // "dso-selector.set-scope.community.button": "Search all of DSpace",
-  "dso-selector.set-scope.community.button": "Pesquisar em todo o DSpace",
+  "dso-selector.set-scope.community.button": "Pesquisar em todo o Deposita",
 
   // "dso-selector.set-scope.community.or-divider": "or",
   "dso-selector.set-scope.community.or-divider": "ou",
@@ -3380,7 +3530,7 @@
   "home.title": "Início",
 
   // "home.top-level-communities.head": "Communities in DSpace",
-  "home.top-level-communities.head": "Comunidades no DSpace",
+  "home.top-level-communities.head": "Comunidades no Deposita",
 
   // "home.top-level-communities.help": "Select a community to browse its collections.",
   "home.top-level-communities.help": "Selecione uma comunidade para navegar por suas coleções",
@@ -5222,7 +5372,7 @@
   "login.form.forgot-password": "Esqueceu sua senha?",
 
   // "login.form.header": "Please log in to DSpace",
-  "login.form.header": "Por favor, entre no DSpace",
+  "login.form.header": "Por favor, entre no Deposita",
 
   // "login.form.new-user": "New user? Click here to register.",
   "login.form.new-user": "Novo usuário? Clique aqui para cadastrar.",
@@ -5253,7 +5403,7 @@
   "login.breadcrumbs": "Entrar",
 
   // "logout.form.header": "Log out from DSpace",
-  "logout.form.header": "Sair do DSpace",
+  "logout.form.header": "Sair do Deposita",
 
   // "logout.form.submit": "Log out",
   "logout.form.submit": "Sair",
@@ -5296,6 +5446,9 @@
 
   // "menu.section.reports.queries": "Metadata Query",
   "menu.section.reports.queries": "Consultas de Metadados",
+
+  // "menu.section.reports.users-activities": "Users Activity Report",
+  "menu.section.reports.users-activities": "Relatório de Atividades de Usuários",
 
   // "menu.section.admin_search": "Admin Search",
   "menu.section.admin_search": "Pesquisa Administrativa",
@@ -6645,7 +6798,7 @@
   "register-page.registration.header": "Novo registro de usuário",
 
   // "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to DSpace.",
-  "register-page.registration.info": "Registre uma conta para assinar coleções para atualizações por e-mail e enviar novos itens para o DSpace.",
+  "register-page.registration.info": "Registre uma conta para assinar coleções para atualizações por e-mail e enviar novos itens para o Deposita.",
 
   // "register-page.registration.email": "Email Address *",
   "register-page.registration.email": "Endereço de E-mail  *",
@@ -7726,7 +7879,7 @@
   "submission.import-external.title.none": "Importar metadados de uma fonte externa",
 
   // "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to DSpace.",
-  "submission.import-external.page.hint": "Insira uma consulta acima para encontrar itens da web para importar para o DSpace.",
+  "submission.import-external.page.hint": "Insira uma consulta acima para encontrar itens da web para importar para o Deposita.",
 
   // "submission.import-external.back-to-my-dspace": "Back to MyDSpace",
   "submission.import-external.back-to-my-dspace": "Voltar para o Meu Deposita",
@@ -9073,7 +9226,7 @@
   "thumbnail.person.placeholder": "Nenhuma Foto de Perfil Disponível",
 
   // "title": "DSpace",
-  "title": "DSpace",
+  "title": "Deposita",
 
   // "vocabulary-treeview.header": "Hierarchical tree view",
   "vocabulary-treeview.header": "Visualização de árvore hierárquica",

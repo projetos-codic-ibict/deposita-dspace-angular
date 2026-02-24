@@ -27,6 +27,11 @@ export class ComcolPageHandleComponent {
   @Input() content: string;
 
   public getHandle(): string {
-    return this.content;
+    if (this.content && this.content.length > 0) {
+      const parts = this.content.split('/');
+      const collectionId = parts.length > 0 ? parts[parts.length - 1] : '';
+      return `${window.location.protocol}//${window.location.host}/handle/deposita/${collectionId}`;
+    }
+    return '';
   }
 }

@@ -1,9 +1,50 @@
-<ds-metadata-field-wrapper [label]="label | translate">
-  @for (mdValue of mdValues; track mdValue; let last = $last) {
-    <a class="dont-break-out" [href]="mdValue.value" [target]="hasInternalLink(mdValue.value) ? '_self' : '_blank'" role="link" tabindex="0">
-      {{ linktext || mdValue.value }}@if (!last) {
-      <span [innerHTML]="separator"></span>
-          }
-    </a>
+@if (shouldRender()) {
+
+  <ds-metadata-field-wrapper [label]="label | translate">
+
+    @let itemDoi = getItemDoiResolved();
+
+    @if (itemDoi) {
+
+      <!--  ITEM POSSUI DOI -->
+      <a
+        class="dont-break-out"
+        [href]="itemDoi.link"
+        target="_blank"
+        role="link"
+        tabindex="0">
+        https://doi.org/{{ linktext || itemDoi.text }}
+      </a>
+
+    } @else {
+
+      <!--  ITEM SEM DOI → MOSTRA TODOS OS URIs -->
+      @for (mdValue of mdValues; track mdValue.value; let last = $last) {
+
+        @let resolved = resolveIdentifier(mdValue.value);
+
+        @if (resolved) {
+          <a
+            class="dont-break-out"
+            [href]="resolved.link"
+            target="_blank"
+            role="link"
+            tabindex="0">
+            {{ linktext || resolved.text }}
+          </a>
+        } @else {
+          <span class="dont-break-out">
+            {{ mdValue.value }}
+          </span>
+        }
+
+        @if (!last) {
+          <span [innerHTML]="separator"></span>
+        }
+      }
+
+    }
+
+  </ds-metadata-field-wrapper>
+
 }
-</ds-metadata-field-wrapper>
