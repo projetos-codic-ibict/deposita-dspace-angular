@@ -8,6 +8,7 @@ import { ThemedMediaViewerVideoComponent } from '../../../../../app/item-page/me
 import { ThemedLoadingComponent } from '../../../../../app/shared/loading/themed-loading.component';
 import { VarDirective } from '../../../../../app/shared/utils/var.directive';
 import { ThemedThumbnailComponent } from '../../../../../app/thumbnail/themed-thumbnail.component';
+import { ThemedMediaViewerPdfComponent } from 'src/app/item-page/media-viewer/media-viewer-pdf/themed-media-viewer-pdf.component';
 
 @Component({
   selector: 'ds-themed-media-viewer',
@@ -21,6 +22,7 @@ import { ThemedThumbnailComponent } from '../../../../../app/thumbnail/themed-th
     ThemedLoadingComponent,
     ThemedMediaViewerImageComponent,
     ThemedMediaViewerVideoComponent,
+    ThemedMediaViewerPdfComponent,
     ThemedThumbnailComponent,
     TranslateModule,
     VarDirective,
