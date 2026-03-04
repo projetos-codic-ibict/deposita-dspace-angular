@@ -11669,8 +11669,8 @@
     "dc.creator": "Autor",
     "dc.creator.Lattes": "Lattes do Autor",
     "dc.creator.ID" : "Orcid do Autor",
-    "dc.contributor.advisor-co1Lattes": "Lattes do Co-orientador",
-    "dc.contributor.advisor-co1ID" : "Orcid do Co-orientador",
+    "dc.contributor.advisor-co1Lattes": "Lattes do Coorientador",
+    "dc.contributor.advisor-co1ID" : "Orcid do Coorientador",
     "dc.contributor.referee1ID" : "Orcid Membro da banca",
     "dc.date.accessioned": "Data de Acesso",
     "dc.date.issued": "Ano de publicação",
@@ -11704,6 +11704,9 @@
     "dc.rights.uri": "URL dos Direitos",
     "dc.thumbnail.url": "URL da Miniatura",
     "dc.contributor.advisor-co1" : "Coorientador",
+    "dc.contributor.advisor-co2" : " Coorientador",
+    "dc.contributor.advisor-co2Lattes" : "Lattes do Coorientador",
+    "dc.contributor.advisor-co2ID" : "Orcid do Coorientador",
     "dc.contributor.referee1Lattes" : "Lattes membro da banca",
     "dc.contributor.referee2" : "Segundo membro da banca",
     "dc.contributor.referee2Lattes" : "Lattes segundo membro da banca",
@@ -11753,7 +11756,7 @@
 
   "instituto-brasileiro-de-informacao-em-ciencia-e-tecnologia-abnt": "ABNT",
 
-   "media-viewer.pdf.files": "Arquivos",
+  "media-viewer.pdf.files": "Arquivos",
 
   "media-viewer.pdf.browser-not-support": "Seu navegador não é compatível com o visualizador de PDF.",
 
