@@ -11805,4 +11805,13 @@
  
    // "vocabulary-treeview.header": "Hierarchical tree view",
    "vocabulary-treeview.header": "Visualização de árvore hierárquica",
+
+
+   "browse.metadata.language" : "Idioma",
+
+   "browse.metadata.institution" : "Instituição",
+
+   "browse.metadata.keyword" : "Palavra-chave",
+
+   "browse.metadata.knowledgearea" : "Área de conhecimento",
 }
