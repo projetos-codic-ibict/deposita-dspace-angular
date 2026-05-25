@@ -11716,6 +11716,7 @@
     "dc.identifier.isbn": "Identificador ISBN",
     "dc.language": "Idioma",
     "dc.publisher": "Instituição",
+    "dc.publisher.initials" : "Sigla da instituição",
     "dc.publisher.country": "País",
     "dc.publisher.department": "Departamento",
     "dc.publisher.program": "Programa",
